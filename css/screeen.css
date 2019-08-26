@@ -1,0 +1,207 @@
+.m{
+		display: none;
+	}
+.d{
+		display: block;
+}
+
+.scetLOGO{
+		position: relative;
+		margin-top: -80%;
+		margin-left: 10%;
+		width: 12%;
+}
+
+.Xitij_Image{
+		position: relative;
+		margin-top: -85%;
+		margin-left: 77%;
+		width: 12%;
+}
+.scet{
+	font-family: 'Quantico', sans-serif;
+	position: relative;
+		color: rgb(64,198,209);
+		text-align: center;
+		font-size: 2vw;
+		margin-top: -47%;
+		margin-left: -1%;
+}
+.Department{
+		color: orange;
+		font-size: 2vw;
+}
+.welcomes{
+		color: yellow;
+		font-size: 1.5vw;
+}
+.U{
+		position: relative;
+		width: 10%;
+		margin-left: 18%;
+		margin-top: 3%;
+
+		display: inline-block;
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotateY(0deg);
+		}
+		to {
+				-webkit-transform: rotateY(359deg);
+		}
+}
+.pdates2k19{
+		background-color: none;
+		color: rgb(64,198,209);
+		position: absolute;
+		width: auto;
+		font-size: 2.3vw;
+		margin-top:2.3%;
+}
+.tagline{
+		color: white;
+		font-size: 2.5vw;
+		margin-top: 1%;
+	}
+	.date{
+		color: white;
+		font-size: 3vw;	
+}
+	#Events{
+		font-size:35px;
+		padding-bottom: 1px;
+	}
+.portfolio{
+	margin-top: 5%;	/*event*/
+}
+
+#about{
+	height: 40%;
+}
+#about_text{
+	margin-top: -8%;
+		font-size:35px;
+		padding-bottom: 1px;
+}
+#Sponsors{
+		font-size:35px;
+		padding-bottom: 1px;	
+}
+#team{
+		font-size:35px;
+		padding-bottom: 1px;	
+}
+
+/*.img-fluid:hover{
+	background-color: red;
+}*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+	#hee{
+		position: absolute;
+		/*left:230px;*/ 
+		right: 20px;
+	}
+	
+	.d{
+		display: none;
+	}
+
+	.m{
+		display: block;
+	}
+
+	.scet{
+		color: white;
+		text-align: center;
+		font-size: 8vw;
+		margin-top: -130%;
+	}
+	.Department{
+		color: orange;
+		font-size: 5vw;
+	}
+	.welcomes{
+		color: yellow;
+		font-size: 5vw;
+		margin-top: -7%;
+	}
+	.U{
+		position: relative;
+		width: 20%;
+		margin-left: 6%;
+		margin-top: 3%;
+	}
+	.pdates2k19{
+		background-color: none;
+		color: white;
+		position: absolute;
+		width: auto;
+		font-size: 3vw;
+		margin-top: 7%;
+	}
+	.tagline{
+		color: white;
+		font-size: 5vw;
+	}
+	.date{
+		color: white;
+		font-size: 5vw;	
+	}
+	.scetLOGO{
+		position: relative;
+		margin-top: -280%;
+		width: 40%;
+		margin-left: 5%;
+	}
+	.Xitij_Image{
+		position: relative;
+		margin-top: -292%;
+		margin-left: 50%;
+		width: 45%;
+	}
+	
+
+	#about_text{
+		margin-top: -20%;
+	}
+
+	#Events{
+		margin-top: -5%;
+		font-size:25px;
+		padding-bottom: 1px;
+	}
+.portfolio{
+	margin-top: 5%;	/*event*/
+}
+
+#about{
+	height: 80%;
+}
+#about_text{
+	margin-top: -8%;
+		font-size:35px;
+		padding-bottom: 1px;
+}
+#Sponsors{
+		font-size:35px;
+		padding-bottom: 1px;	
+}
+#team{
+		font-size:35px;
+		padding-bottom: 1px;	
+}
+
+}
